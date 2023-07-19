@@ -1,0 +1,59 @@
+:root {
+    --gray-01: #F8FAFC;
+    --gray-02: #E2E8F0;
+    --gray-03: #94A3B8;
+    --gray-04: #334155;
+    --gray-05: #1E293B;
+    --gray-06: #0F172A;
+    --gray-07: #020617;
+}
+
+.svg-icon {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.code {
+    background-image: url("./icons/Code.svg");
+}
+
+.imagesquare {
+    background-image: url("./icons/ImageSquare.svg");
+}
+
+.magicwand {
+    background-image: url("./icons/MagicWand.svg");
+}
+
+.musicnotessimple {
+    background-image: url("./icons/MusicNotesSimple.svg");
+}
+
+.paperplaneright {
+    background-image: url("./icons/PaperPlaneRight.svg");
+}
+
+.playcircle {
+    background-image: url("./icons/PlayCircle.svg");
+}
+
+.pluscircle {
+    background-image: url("./icons/PlusCircle.svg");
+}
+
+.arrowright {
+    background-image: url("./icons/ArrowRight.svg");
+}
+
+::selection {
+    background-color: var(--gray-01);
+    color: var(--gray-07);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
